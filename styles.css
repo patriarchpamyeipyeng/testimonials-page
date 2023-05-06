@@ -37,7 +37,8 @@ body {
     background-color: var(--Light-grayish-blue);
     justify-content:center ;
     align-items: center;
-    margin-block: 10rem;
+    /* margin-block: 10rem; */
+    min-height: 100vh;
 }
 
 
