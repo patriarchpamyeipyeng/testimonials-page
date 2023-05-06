@@ -47,7 +47,6 @@ main {
     gap: 1.8rem;
 }
 
-/* flex-colors-styles */
 .daniel .flex {
     color: var(--Light-grayish-blue);
 }
@@ -68,11 +67,6 @@ main {
     color: var(--Very-dark-grayish-blue);
 }
 
-/* flex-colors-styles */
-
-
-
-/* article-h1- style */
 .jaenette h1 {
     color: var(--Very-dark-grayish-blue);
 }
@@ -85,13 +79,7 @@ main {
 .patrick>h1 {
     color: var(--Light-gray);
 }
-/* article-h1- style */
 
-
-
-
-
-/* article>p- style */
 .jaenette>p {
     color: var(--Very-dark-grayish-blue);
 }
@@ -101,13 +89,11 @@ main {
   
     
 }
-/* article>p- style */
 
 article {
     border-radius: 10px;
     padding: 2rem;
 }
-
 
 article h1 {
     color: var;
@@ -115,7 +101,6 @@ article h1 {
     padding-block: 1rem;
     font-weight: 600;
 }
-
 
 article>p {
     opacity: 70%;
