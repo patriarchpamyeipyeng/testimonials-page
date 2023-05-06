@@ -44,7 +44,6 @@ body {
 
 main {
 
-
     display: grid;
     gap: 1.8rem;
 }
@@ -122,7 +121,6 @@ article h1 {
 article>p {
     opacity: 70%;
     line-height: 1.5rem;
-
 }
 
 .flex {
@@ -138,7 +136,6 @@ article>p {
     opacity: 50%;
 }
 
-
 main .daniel {
     background-color: var(--Moderate-violet);
     color: white;
@@ -148,30 +145,25 @@ main .daniel {
     background-size: 36%;
 }  
 
-
-
-
 main .jonathan {
     background-color: var(--Very-dark-grayish-blue);
     color: white;
 }
-
 
 main .jaenette {
     background-color: var(--White);
     color: var(--Very-dark-blackish-blue);
 }
 
-
 main .patrick {
     background-color: var(--Very-dark-blackish-blue);
     color: white;
 }
 
-
 main .kira {
     background-color: var(--White);
 }
+
 @media (min-width: 740px) {
     img{
         height: 30px;
@@ -193,50 +185,42 @@ main .kira {
         grid-template-rows:1fr 1fr;
         grid-template-areas: 
         "daniel daniel jonathan kira"
-        "jaenette patrick patrick kira"
-        
-        
+        "jaenette patrick patrick kira"    
     }
+
 main .daniel {
     grid-area:daniel;
-
-
 }
-
 
 main .jonathan {
     grid-area: jonathan;
-  
 }
-
 
 main .jaenette {
     grid-area: jaenette;
-    
 }
-
 
 main .patrick {
     grid-area: patrick;
-
 }
-
 
 main .kira {
     grid-area: kira;
-
 }
+
 article>p {
     font-size: 1.5rem;
-
 }
+
 article h1{
     font-size: 18px;
 }
+
 article{
     padding: 2rem;
     border-radius: 5px;
 }
+
 main .daniel {
     background-color: var(--Moderate-violet);
     color: white;
